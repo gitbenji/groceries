@@ -1,0 +1,23 @@
+{
+  "name": "glApp",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "babel-plugin-functional-hmr": "^1.0.24",
+    "enzyme": "^2.8.2",
+    "react-addons-test-utils": "^15.5.1",
+    "react-scripts": "^1.0.2"
+  },
+  "dependencies": {
+    "prop-types": "^15.5.10",
+    "react": "^16.3.0",
+    "react-dom": "^15.5.0",
+    "react-native": "0.54.2",
+    "react-redux": "^5.0.5",
+    "redux": "^3.5.2",
+    "redux-persist": "^5.9.1"
+  },
+  "scripts": {
+    "clear": "rm -rf $TMPDIR/react-native-packager-cache-* && rm -rf $TMPDIR/metro-bundler-cache-*"
+  }
+}
